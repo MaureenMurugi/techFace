@@ -46,11 +46,32 @@ li{
   color: black;
   text-decoration: none;
   border: 2px solid transparent;
+  font-family: 'Tangerine', serif;
   font-weight: bold;
   padding: 10px 25px;
   border-radius: 30px;
   transition: transform .4s;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
 }
 .cta :hover{
   transform:scale(1.2);
+}
+
+.section{
+  width: 100%;
+  padding: 50px 0px;
+  background-color: #fbcfe8;
+}
+.photo {
+  width: 950px;
+  max-width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
