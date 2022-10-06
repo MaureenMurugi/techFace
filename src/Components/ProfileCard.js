@@ -1,6 +1,18 @@
 import person from "../Images/murugi.jpg"
+import {useState} from "react"
+
 
 function ProfileCard() {
+  const [upVote, setUpVote] = useState(0)
+  const [downVote, setDownVote] = useState(0)
+
+  function handleUpVote(upVote) {
+    setUpVote((upVote) => upVote+1);
+  }
+
+  function handleDownVote(downVote) {
+    setDownVote((downVote) => downVote-1);
+  }
   return (
     
       <div className="projects">
@@ -15,8 +27,8 @@ function ProfileCard() {
         <div className="container">
             <h4><b>Front-end Web designs</b></h4>
             <p>Architect $ Engineer</p>
-            <button>Upvote</button>
-            <button>Downvote</button>
+            <button onClick={handleUpVote}>Upvote {upVote}</button>
+            <button onClick={handleDownVote}>Downvote {downVote}</button>
         </div>
     </div>
 
@@ -25,8 +37,8 @@ function ProfileCard() {
         <div className="container">
             <h4><b>Login/Sign-up designs</b></h4>
             <p>Architect $ Engineer</p>
-            <button>Upvote</button>
-            <button>Downvote</button>
+            <button onClick={handleUpVote}>Upvote {upVote}</button>
+            <button onClick={handleDownVote}>Downvote {downVote}</button>
         </div>
     </div>
 
@@ -35,8 +47,8 @@ function ProfileCard() {
         <div className="container">
             <h4><b>John Doe</b></h4>
             <p>Architect $ Engineer</p>
-            <button>Upvote</button>
-            <button>Downvote</button>
+            <button onClick={handleUpVote}>Upvote {upVote}</button>
+            <button onClick={handleDownVote}>Downvote {downVote}</button>
         </div>
     </div>
 

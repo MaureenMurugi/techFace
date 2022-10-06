@@ -2,7 +2,8 @@ import user from "../Components/data/user"
  import logo from "../Images/murugi.jpg"
  import like from "../Images/like2.png"
 import ProfileCard from "./ProfileCard";
-import ProfileForm from "./ProfileForm";
+
+
 
 function Home(props) {
     props=user;
@@ -23,7 +24,7 @@ function Home(props) {
             </div>
       </div>
       <ProfileCard/>
-      <ProfileForm/>
+     
 
         </>
         

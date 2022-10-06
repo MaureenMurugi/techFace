@@ -1,9 +1,11 @@
-
+import ProfileForm from "./ProfileForm"
 
 function AboutUs() {
     return (
-        <div>
-            <h1>This!</h1>
+        <div className="projects">
+            <h1>Know us Then Join us</h1>
+            <ProfileForm />
+
         </div>
     )
 }

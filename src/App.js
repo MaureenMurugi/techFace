@@ -11,10 +11,10 @@ function App() {
     <NavBar />
       <Switch>
         <Route exact path="/profile">
-          <AboutUs />
+          <Profile />
         </Route>
         <Route exact path="/aboutUs">
-          <Profile />
+          <AboutUs />
         </Route>
         <Route exact path="/">
           <Home />
