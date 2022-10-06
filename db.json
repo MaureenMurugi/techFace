@@ -1,0 +1,18 @@
+{
+  "registers": [
+    {
+      "fullname": "Maureen Murugi",
+      "username": "Murugi",
+      "email": "murugimaureen99@gmail.com",
+      "skills": "Web-developer",
+      "id": 1
+    },
+    {
+      "fullname": "Maureen Murugi",
+      "username": "Murugi",
+      "email": "murugimaureen99@gmail.com",
+      "skills": "Web-developer",
+      "id": 2
+    }
+  ]
+}

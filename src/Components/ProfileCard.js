@@ -27,7 +27,7 @@ function ProfileCard() {
         <div className="container">
             <h4><b>Front-end Web designs</b></h4>
             <p>Architect $ Engineer</p>
-            <button onClick={handleUpVote}>Upvote {upVote}</button>
+            <button className="btn1" onClick={handleUpVote}>Upvote {upVote}</button>
             <button onClick={handleDownVote}>Downvote {downVote}</button>
         </div>
     </div>
@@ -37,7 +37,7 @@ function ProfileCard() {
         <div className="container">
             <h4><b>Login/Sign-up designs</b></h4>
             <p>Architect $ Engineer</p>
-            <button onClick={handleUpVote}>Upvote {upVote}</button>
+            <button className="btn2" onClick={handleUpVote}>Upvote {upVote}</button>
             <button onClick={handleDownVote}>Downvote {downVote}</button>
         </div>
     </div>
@@ -47,7 +47,7 @@ function ProfileCard() {
         <div className="container">
             <h4><b>John Doe</b></h4>
             <p>Architect $ Engineer</p>
-            <button onClick={handleUpVote}>Upvote {upVote}</button>
+            <button className="btn3" onClick={handleUpVote}>Upvote {upVote}</button>
             <button onClick={handleDownVote}>Downvote {downVote}</button>
         </div>
     </div>
