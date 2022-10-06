@@ -2,30 +2,44 @@
 
 function ProfileForm() {
     return (
-      <div className="containerForm">
-       <div className="screen">
-         <div className="screen_content">
-           <form className="login">
-             <div className="login_field">
-               <i className="login_icon fas fa-user"></i>
-               <input type="text" className="login_input" placeholder="Username/Email"></input>
-             </div>
+     <>
+     <div className="body-form">
+     <div className="containerForm">
+      <div className="titleForm">
+        <form>
+          <div className="user-details">
+            
+            <div className="input-box">
+            <span className="details">Fullname</span>
+            <input type="text" placeholder="Fullname" required></input>
+            </div>
 
-             <div className="login_field">
-               <i className="login_icon fas fa-lock"></i>
-               <input type="text" className="login_input" placeholder="Skills"></input>
-             </div>
+            <div className="input-box">
+            <span className="details">userName</span>
+            <input type="text" placeholder="Username" required></input>
+            </div>
 
-             <button className="button">
-               <span>Join</span>
-               <i className="button_icon fas fa-chevron-right"></i>
-             </button>
-           </form>
+            <div className="input-box">
+            <span className="details">Email</span>
+            <input type="email" placeholder="Email" required></input>
+            </div>
 
-         </div>
+            <div className="input-box">
+            <span className="details">Skills</span>
+            <input type="text" placeholder="Skills" required></input>
+            </div>
+           
+          </div>
+          <div className="button-form">
+            <button></button>
+          </div>
 
-       </div>
+        </form>
       </div>
+    </div>
+     </div>
+     </>
+   
     );
   }
 

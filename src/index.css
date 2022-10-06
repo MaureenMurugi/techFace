@@ -79,6 +79,8 @@ img{
   width: 20px;
   height: 20px;
   
+  /* ProfileCard */
+
 }
 .projects{
   background: #f9a8d4;
@@ -115,3 +117,6 @@ img{
   width: 200px;
 
 }
+
+/* ProfileForm */
+
