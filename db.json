@@ -13,6 +13,27 @@
       "email": "murugimaureen99@gmail.com",
       "skills": "Web-developer",
       "id": 2
+    },
+    {
+      "fullname": "",
+      "username": "",
+      "email": "",
+      "skills": "",
+      "id": 3
+    },
+    {
+      "fullname": "",
+      "username": "",
+      "email": "",
+      "skills": "",
+      "id": 4
+    },
+    {
+      "fullname": "Martin Mithi",
+      "username": "lilmithi",
+      "email": "lilmithi@gmail.com",
+      "skills": "Full-stack developer",
+      "id": 5
     }
   ]
 }

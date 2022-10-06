@@ -11,7 +11,7 @@ function Home(props) {
         <>
         <div className="section">
             <div className="photo">
-                <img src={logo} alt="logo"></img>
+                <img className="dp" src={logo} alt="logo"></img>
                 <div className="info">
                     <h2>{props.fullName}</h2>
                     <p>{props.userName}</p>

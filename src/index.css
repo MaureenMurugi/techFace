@@ -70,7 +70,7 @@ li{
   align-items: center;
   justify-content: space-around;
 }
-img{
+.dp{
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -113,30 +113,45 @@ img{
 
 }
 .avatar{
-  height: 200px;
-  width: 200px;
+  height: 225px;
+  width: 225px;
 
 }
 
 /* ProfileForm */
 
-/* .body.form{
+
+.aboutUs{
+  background: #fdf2f8;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 40px 0px;
+}
+.pra-about{
+ text-align: center;
+}
+.tell-me{
+  text-align: center;
+  
+}
+.body-form{
   display: flex;
   height: 100vh;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
-} */
+  background: linear-gradient(135deg, #fbcfe8, #9d174d);
+}
 .containerForm{
   max-width: 700px;
   width: 100%;
-  align-items: center;
-  justify-items: center;
+  /* align-items: center;
+  justify-items: center; */
   background: #fff;
   padding: 25px 30px ;
   border-radius: 5px;
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  /* background: linear-gradient(135deg, #71b7e6, #9b59b6); */
 }
 .containerForm .titleForm{
   font-size: 25px;

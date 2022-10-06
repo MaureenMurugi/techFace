@@ -1,17 +1,39 @@
-import person from "../Images/murugi.jpg"
+import design1 from "../Images/design1.jpeg"
+import design2 from "../Images/design2.webp"
+import design3 from "../Images/design3.jpeg"
 import {useState} from "react"
 
 
 function ProfileCard() {
-  const [upVote, setUpVote] = useState(0)
-  const [downVote, setDownVote] = useState(0)
+  const [upVote1, setUpVote1] = useState(0)
+  const [upVote2, setUpVote2] = useState(0)
+  const [upVote3, setUpVote3] = useState(0)
+  const [downVote1, setDownVote1] = useState(0)
+  const [downVote2, setDownVote2] = useState(0)
+  const [downVote3, setDownVote3] = useState(0)
 
-  function handleUpVote(upVote) {
-    setUpVote((upVote) => upVote+1);
+
+  function handleUpVote(e) {
+    if (e.target.id === "btn1") {
+      setUpVote1((upVote1) => upVote1+1);
+    }else if (e.target.id === "btn2") {
+      setUpVote2((upVote2) => upVote2+1);
+    }else if (e.target.id === "btn3") {
+      setUpVote3((upVote3) => upVote3+1);
+    }
+
+    // e.target.value =  `upvote `
+    // console.log(e)
   }
 
-  function handleDownVote(downVote) {
-    setDownVote((downVote) => downVote-1);
+  function handleDownVote(e) {
+    if (e.target.id === "btn1") {
+      setDownVote1((downVote1) => downVote1+1);
+    }else if (e.target.id === "btn2") {
+      setDownVote2((downVote2) => downVote2+1);
+    }else if (e.target.id === "btn3") {
+      setDownVote3((downVote3) => downVote3+1);
+    }
   }
   return (
     
@@ -23,32 +45,33 @@ function ProfileCard() {
         <div className="box">
 
       <div className="card">
-        <img className="avatar" src={person} alt="avatar" ></img>
+        <img className="avatar" src={design1} alt="avatar" ></img>
         <div className="container">
+
             <h4><b>Front-end Web designs</b></h4>
-            <p>Architect $ Engineer</p>
-            <button className="btn1" onClick={handleUpVote}>Upvote {upVote}</button>
-            <button onClick={handleDownVote}>Downvote {downVote}</button>
+            <p>Non-interactive Information Website. </p>
+            <button className="btn1" id="btn1" onClick={(e)=> handleUpVote(e)}>Upvote {upVote1}</button>
+            <button id="btn1" onClick={(e)=> handleDownVote(e)}>Downvote {downVote1}</button>
         </div>
     </div>
 
     <div className="card">
-        <img className="avatar" src={person} alt="avatar" ></img>
+        <img className="avatar" src={design2} alt="avatar" ></img>
         <div className="container">
             <h4><b>Login/Sign-up designs</b></h4>
-            <p>Architect $ Engineer</p>
-            <button className="btn2" onClick={handleUpVote}>Upvote {upVote}</button>
-            <button onClick={handleDownVote}>Downvote {downVote}</button>
+            <p>Interactive website suitable for e-commerce</p>
+            <button className="btn2" id="btn2" onClick={(e)=> handleUpVote(e)}>Upvote {upVote2}</button>
+            <button id="btn2" onClick={(e)=> handleDownVote(e)}>Downvote {downVote2}</button>
         </div>
     </div>
 
     <div className="card">
-        <img className="avatar" src={person} alt="avatar" ></img>
+        <img className="avatar" src={design3} alt="avatar" ></img>
         <div className="container">
-            <h4><b>John Doe</b></h4>
-            <p>Architect $ Engineer</p>
-            <button className="btn3" onClick={handleUpVote}>Upvote {upVote}</button>
-            <button onClick={handleDownVote}>Downvote {downVote}</button>
+            <h4><b>Mobile Application</b></h4>
+            <p>A food delivery app that uses maps</p>
+            <button id="btn3" className="btn3" onClick={(e)=> handleUpVote(e)}>Upvote {upVote3}</button>
+            <button id="btn3"  onClick={(e)=> handleDownVote(e)}>Downvote {downVote3}</button>
         </div>
     </div>
 
