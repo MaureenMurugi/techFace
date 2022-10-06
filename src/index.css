@@ -32,7 +32,7 @@ header {
   color: #831843;
 }
 
-span {
+.navnav {
   color: #f9a8d4;
 }
 
@@ -131,6 +131,7 @@ img{
 .containerForm{
   max-width: 700px;
   width: 100%;
+  justify-items: center;
   background: #fff;
   padding: 25px 30px;
   border-radius: 5px;
@@ -147,5 +148,34 @@ img{
   bottom: 0;
   height: 3px;
   width: 30px;
-  background: #9b59b6;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.containerForm form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: #9b59b6;
+}
+
+.register{
+  height: 45px;
+  margin: 45px 0;
 }

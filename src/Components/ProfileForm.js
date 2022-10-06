@@ -5,7 +5,7 @@ function ProfileForm() {
      <>
      <div className="body-form">
      <div className="containerForm">
-      <div className="titleForm">
+      <div className="titleForm">Registration </div>
         <form>
           <div className="user-details">
             
@@ -31,11 +31,11 @@ function ProfileForm() {
            
           </div>
           <div className="button-form">
-            <button></button>
+            <button className="register">Register</button>
           </div>
 
         </form>
-      </div>
+     
     </div>
      </div>
      </>

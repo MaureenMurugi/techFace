@@ -4,7 +4,7 @@ function NavBar() {
     
     return (
         <header>
-           <h2 className="logo">tech<span>Face</span></h2>
+           <h2 className="logo">tech<span className="navnav">Face</span></h2>
             <nav>
                 <ul>
                     <li><NavLink  exact to="/">Home</NavLink></li>

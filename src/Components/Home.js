@@ -12,7 +12,9 @@ function Home(props) {
             <div className="photo">
                 <img src={logo} alt="logo"></img>
                 <div className="info">
-                    <h2>{props.userName}</h2>
+                    <h2>{props.fullName}</h2>
+                    <p>{props.userName}</p>
+                    <p>{props.email}</p>
                     <p>{props.skill}</p>
                     <ul>
                         <li className="like">Like!<img className="likee" src={like} alt="like"></img></li>
