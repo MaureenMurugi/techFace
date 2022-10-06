@@ -75,3 +75,43 @@ img{
   width: 200px;
   border-radius: 50%;
 }
+.likee{
+  width: 20px;
+  height: 20px;
+  
+}
+.projects{
+  background: #f9a8d4;
+  width: 100%;
+  padding: 40px 0px;
+}
+.projo{
+  color: black;
+  font-size: 60px;
+  font-style: italic;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+.card{
+  height: 350px;
+  width: 325px;
+  padding: 20px 35px;
+  background-color: #fce7f3;
+  border-radius: 20px;
+  margin: 15px;
+  overflow: scroll;
+  text-align: center;
+
+}
+.avatar{
+  height: 200px;
+  width: 200px;
+
+}
