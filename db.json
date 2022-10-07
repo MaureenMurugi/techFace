@@ -27,6 +27,13 @@
       "email": "morrismuiruri304@gmail.com",
       "skills": "Data scientist",
       "id": 6
+    },
+    {
+      "fullname": "Mary Nyokabi",
+      "username": "Kabie",
+      "email": "nyokabimary99@gmail.com",
+      "skills": "System architect",
+      "id": 7
     }
   ]
 }
