@@ -1,33 +1,17 @@
 import avater from "../Images/avatar.png"
 import like from "../Images/like2.png"
-import { useState, useEffect} from "react"
 
-function Profile() {
-  const [getFull, setGetFull] = useState([]);
 
-  const fetchData = () => {
-    fetch("http://localhost:3000/registers")
-    .then((response) => response.json())
-    .then((data) => {
-      console.log(data);
-      setGetFull(data)
-    });
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, [])
-
-  
+function Profile({profile}) {
     return ( 
       <div className="section">
       <div className="photo">
           <img className="dp" src={avater} alt="logo"></img>
           <div className="info">
-              <h3>Fullname:</h3>
-              <p>Username:</p>
-              <p>Email:</p>
-              <p>Skills:</p>
+              <h3>Fullname:{profile.fullname} </h3>
+              <p>Username: {profile.username}</p>
+              <p>Email: {profile.email}</p>
+              <p>Skills:{profile.skills}</p>
               <ul>
                   <li className="like">Like!<img className="likee" src={like} alt="like"></img></li>
               </ul>

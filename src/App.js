@@ -4,6 +4,7 @@ import NavBar from './Components/NavBar';
 import Home from './Components/Home';
 import AboutUs from './Components/AboutUs';
 import Profile from './Components/Profile';
+import ProfileDisplay from './Components/ProfileDisplay';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
     <NavBar />
       <Switch>
         <Route exact path="/profile">
-          <Profile />
+          <ProfileDisplay />
         </Route>
         <Route exact path="/aboutUs">
           <AboutUs />

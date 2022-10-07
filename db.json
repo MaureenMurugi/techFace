@@ -15,25 +15,18 @@
       "id": 2
     },
     {
-      "fullname": "",
-      "username": "",
-      "email": "",
-      "skills": "",
-      "id": 3
-    },
-    {
-      "fullname": "",
-      "username": "",
-      "email": "",
-      "skills": "",
-      "id": 4
-    },
-    {
       "fullname": "Martin Mithi",
       "username": "lilmithi",
       "email": "lilmithi@gmail.com",
       "skills": "Full-stack developer",
       "id": 5
+    },
+    {
+      "fullname": "Maurice Njoroge",
+      "username": "Njoraw",
+      "email": "morrismuiruri304@gmail.com",
+      "skills": "Data scientist",
+      "id": 6
     }
   ]
 }
