@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/techFace/static/css/main.e16fc7bf.css",
+    "main.js": "/techFace/static/js/main.0d8e264c.js",
+    "static/js/787.655a5970.chunk.js": "/techFace/static/js/787.655a5970.chunk.js",
+    "static/media/murugi.jpg": "/techFace/static/media/murugi.9e220e97aae365764feb.jpg",
+    "static/media/design2.webp": "/techFace/static/media/design2.c527a2d8526eab5fe330.webp",
+    "static/media/like2.png": "/techFace/static/media/like2.40a97e21737e78800c12.png",
+    "static/media/design3.jpeg": "/techFace/static/media/design3.806883b04774920acd1d.jpeg",
+    "index.html": "/techFace/index.html",
+    "main.e16fc7bf.css.map": "/techFace/static/css/main.e16fc7bf.css.map",
+    "main.0d8e264c.js.map": "/techFace/static/js/main.0d8e264c.js.map",
+    "787.655a5970.chunk.js.map": "/techFace/static/js/787.655a5970.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e16fc7bf.css",
+    "static/js/main.0d8e264c.js"
+  ]
+}
