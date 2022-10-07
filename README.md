@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# techFace
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Author
 
-## Available Scripts
+> Maureen-Murugi
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+> This web application is a single-page application, social media platform for tech-space or rather tech-buddies. It creates a space where other techies, employers and entreprenuers find a specific skill.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> A user is able to view their profile and the designs from the Home page. With the designs, other users can upvote or downvote a design.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> A user can register from the AboutUs page, to join, then their profile is displayed in the Profile page.
 
-### `npm test`
+## Live Link
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> 
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> As a user of the application, you will be able to;
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Navigate through the 3 pages by use of Routers.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Upvote or Downvote a design on the Homepage displayed by a developer, this is by use of setState.
 
-### `npm run eject`
+3. Register a new user to the app, by use of POST, and GET, the user's details displayed in the Profile's page.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Requirements
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> User must have access to a computer.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+> User must be connected to the internet.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installation Process
 
-## Learn More
+> Clone the repository: git clone 'git@github.com:MaureenMurugi/MyHealthFirst.git'
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+> Unzip the cloned files in a folder of choice.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> Open the index file from the zipped folder with any browser.
 
-### Code Splitting
+### Technologies used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. HTML - used to come up with the structure of the web application
 
-### Analyzing the Bundle Size
+2. CSS - used when styling different elements of our web application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. Javascript - used to fetch data from the API.
 
-### Making a Progressive Web App
+4. React JS - Interaction between the HTML and JavaScrippt
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### License
 
-### Advanced Configuration
+MIT License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Copyright [2022][Maureen]
 
-### Deployment
+### Authors Info
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+> github: 'https://github.com/MaureenMurugi'
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
